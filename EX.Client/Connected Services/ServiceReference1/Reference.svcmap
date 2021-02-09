@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="57122bc4-0491-404b-94ff-1373b62e4dbe" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://192.168.0.26/Visitor/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="6378ac70-a2ef-4067-a30a-c0a413d5c156" SourceId="1" SourceUrl="net.tcp://192.168.0.26/Visitor/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="ec5fd376-4fdf-46b0-a640-be3b0c3d4e7f" SourceId="1" SourceUrl="net.tcp://192.168.0.26/Visitor/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="7a295526-e205-40db-8730-9f02a1e8bff2" SourceId="1" SourceUrl="net.tcp://192.168.0.26/Visitor/mex" />
+    <MetadataFile FileName="iterator.org.xsd" MetadataType="Schema" ID="30fe3bfe-97c7-46ea-989b-c87e9b89b14e" SourceId="1" SourceUrl="net.tcp://192.168.0.26/Visitor/mex" />
+    <MetadataFile FileName="EX.Model.DTO.xsd" MetadataType="Schema" ID="744b6905-85e6-4320-860f-8faf1c1935ba" SourceId="1" SourceUrl="net.tcp://192.168.0.26/Visitor/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
